@@ -97,7 +97,7 @@ function addPagination(list){
          document.querySelector('.active').className = '';
          target.className = 'active';
 
-         showPage(list,target.textContent);
+         showPage(parseInt(target.textContent),data);
       }
 
    })
